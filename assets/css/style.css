@@ -1,0 +1,107 @@
+
+#aboutMe{
+
+    background: #ffffff;
+    border-color: #dddddd;
+    border-width: 5px;
+
+    text-align: left;
+
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 40%;
+}
+
+body{
+    width: 960px;
+    height: auto;
+
+    color: #777777;
+}
+
+#nameBox
+{
+    background: #4aaaa5;
+    color: white;
+
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding: 20px;
+    margin-right: 70%;
+    margin-left: 50px;
+    bottom: 0;
+}
+
+#left
+{
+    float: right;
+    padding: 5px;
+
+    font-size: 20px;
+    text-align: center;
+
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 70%;
+    bottom: 0;
+}
+
+#middle
+{
+    float: right;
+    padding: 5px;
+
+    font-size: 20px;
+    text-align: center;
+
+    padding: 5px;
+    margin-right: 50px;
+    margin-left: 80%;
+    bottom: 0;
+
+}
+
+#right
+{
+   float: right;
+    padding: 5px;
+
+    font-size: 20px;
+    text-align: center;
+
+    padding: 5px;
+    float: right;
+}
+
+#pic
+{
+    float: left;
+    margin-right: 20px;
+}
+
+header{
+    border-bottom: solid #cccccc;
+    border-width: 2px;
+    align-content: center;
+}
+
+h1{
+    color: #4aaaa5;
+}
+
+footer{
+
+    background: #666666;
+    padding: 25px;
+
+    text-align: center;
+    color: #777777;
+    font-family: Georgia;
+
+    border-top: solid #4aaaa5;
+    border-width: 10px;
+
+}
