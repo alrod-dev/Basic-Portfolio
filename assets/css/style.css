@@ -1,107 +1,187 @@
 
-#aboutMe{
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url('../images/dark-triangles.png');
 
-    background: #ffffff;
-    border-color: #dddddd;
-    border-width: 5px;
-
-    text-align: left;
-
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 40%;
 }
 
-body{
-    width: 960px;
-    height: auto;
+/*
+    Global Changes
+ */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Header
+ */
+
+header {
+    background: white;
+    color: #777777;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #cbcbcb 3px solid;
+
+}
+
+header a {
+    color: #777777;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+    border-right: #666666 0.0005px solid;
+}
+
+header #brandName {
+    float: left;
+
+}
+
+header #brandName h1 {
+    color: white;
+    background: #4aaaa5;
+
+    margin: 0;
+    padding: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+}
+
+header .current, header a:hover {
+    color: #666666;
+    font-weight: bold;
+}
+
+/*
+    Main Section
+ */
+
+#mainSection {
+    min-height: 400px;
     color: #777777;
 }
 
-#nameBox
-{
-    background: #4aaaa5;
-    color: white;
+/*
+    About Me Box
+ */
 
-    text-align: center;
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 20px;
+#aboutMeBox #pic{
 
-    padding: 20px;
-    margin-right: 70%;
-    margin-left: 50px;
-    bottom: 0;
-}
-
-#left
-{
-    float: right;
-    padding: 5px;
-
-    font-size: 20px;
-    text-align: center;
-
-    padding: 5px;
-    margin-right: 50px;
-    margin-left: 70%;
-    bottom: 0;
-}
-
-#middle
-{
-    float: right;
-    padding: 5px;
-
-    font-size: 20px;
-    text-align: center;
-
-    padding: 5px;
-    margin-right: 50px;
-    margin-left: 80%;
-    bottom: 0;
-
-}
-
-#right
-{
-   float: right;
-    padding: 5px;
-
-    font-size: 20px;
-    text-align: center;
-
-    padding: 5px;
-    float: right;
-}
-
-#pic
-{
     float: left;
+    text-align: left;
+    width: 300px;
+    height: 350px;
+
+    margin-top: 10px;
+    margin-left: 10px;
     margin-right: 20px;
 }
 
-header{
-    border-bottom: solid #cccccc;
-    border-width: 2px;
-    align-content: center;
-}
+#aboutMeBox h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
 
-h1{
     color: #4aaaa5;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
 }
 
-footer{
-
-    background: #666666;
-    padding: 25px;
-
+#aboutMeBox p {
     text-align: center;
-    color: #777777;
-    font-family: Georgia;
+    font-size: 20px;
 
-    border-top: solid #4aaaa5;
-    border-width: 10px;
+    margin-left: 20px;
+}
+
+#aboutMeBox {
+    float: left;
+    border: #bebebe 1px solid;
+
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    width: 60%;
+    height: 460px;
+
+    padding: 20px;
+    background: white;
+
+    text-align: justify;
+
+}
+
+/*
+    Sidebar Box and Links
+ */
+#sidebar {
+    float: right;
+
+    width: 30%;
+    height: auto;
+
+    padding: 10px;
+    background: white;
+
+    border: #bebebe 1px solid;
+
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+#sidebar h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #4aaaa5;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#sidebar .links {
+    float: left;
+    text-align: center;
+    padding: 2px;
+    width: 30%;
+}
+
+#sidebar .links img {
+    width: 75px;
+    height: 75px;
+}
+
+/*
+    Footer
+ */
+footer {
+    background: #666666;
+    padding: 30px;
+
+    color: #777777;
+    text-align: center;
+
+    border-top: #4aaaa5 6px solid;
 
 }
