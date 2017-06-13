@@ -128,8 +128,6 @@ header .current, header a:hover {
     padding: 20px;
     background: white;
 
-    text-align: justify;
-
 }
 
 /*
@@ -147,7 +145,7 @@ header .current, header a:hover {
     border: #bebebe 1px solid;
 
     margin-top: 40px;
-    margin-left: 10px;
+    margin-right: auto;
 }
 
 #sidebar h1 {
@@ -182,6 +180,6 @@ footer {
     color: #777777;
     text-align: center;
 
-    border-top: #4aaaa5 6px solid;
+    border-top: #4aaaa5 9px solid;
 
 }
