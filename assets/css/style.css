@@ -130,7 +130,7 @@ header .current, header a:hover {
 }
 
 #aboutMeBox p {
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
 
     margin-left: 20px;
@@ -239,7 +239,7 @@ header .current, header a:hover {
     border: #d4dade 1px solid;
 
     color: #777777;
-
+    font-size: 16px;
 }
 
 #contactForm input[type="text"]
@@ -250,6 +250,8 @@ header .current, header a:hover {
     border: #d4dade 1px solid;
 
 
+    resize: both;
+    overflow: auto;
     box-sizing: border-box;
 
     text-align: left;
@@ -257,27 +259,33 @@ header .current, header a:hover {
 
 /*
     Placeholder Font Style
+
+    This code is pretty awesome because
+    it's used for every different browser
  */
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #c2c8cc;
+    font-size: 16px;
 }
 
 ::-moz-placeholder { /* Firefox 19+ */
     color: #c2c8cc;
+    font-size: 16px;
 }
 
 :-ms-input-placeholder { /* IE 10+ */
     color: #c2c8cc;
+    font-size: 16px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
     color: #c2c8cc;
+    font-size: 16px;
 }
 
 #contactForm .boxResize
 {
-    resize: both;
-    overflow: auto;
+
 }
 
 /*
