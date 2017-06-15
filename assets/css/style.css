@@ -249,9 +249,6 @@ header .current, header a:hover {
 
     border: #d4dade 1px solid;
 
-
-    resize: both;
-    overflow: auto;
     box-sizing: border-box;
 
     text-align: left;
@@ -285,7 +282,9 @@ header .current, header a:hover {
 
 #contactForm .boxResize
 {
-
+    width: 600px;
+    resize: both;
+    overflow: auto;
 }
 
 /*
