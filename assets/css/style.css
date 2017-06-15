@@ -242,14 +242,15 @@ header .current, header a:hover {
     font-size: 16px;
 }
 
-#contactForm input[type="text"]
+#contactForm textarea
 {
     height: 350px;
     width: 80%;
+    margin-bottom: 15px;
 
     border: #d4dade 1px solid;
 
-    box-sizing: border-box;
+    resize: both;
 
     text-align: left;
 }
@@ -280,12 +281,7 @@ header .current, header a:hover {
     font-size: 16px;
 }
 
-#contactForm .boxResize
-{
-    width: 600px;
-    resize: both;
-    overflow: auto;
-}
+
 
 /*
     Button Settings
