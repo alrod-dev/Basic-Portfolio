@@ -1,8 +1,8 @@
 <h1 align="center">Basic-Portfolio</h1>
 
-<div style="text-align: center">
+<p style="text-align: center">
     <img src="assets/images/mainPage.png" width="80%">
-</div>
+</p>
 
 <h3>Technologies used</h3>
 
