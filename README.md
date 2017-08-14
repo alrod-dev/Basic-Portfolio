@@ -1,8 +1,8 @@
-# Basic-Portfolio
-
 <h1 align="center">Basic-Portfolio</h1>
 
-<img src="assets/images/mainPage.png" text-align="center" width="40%">
+<div style="text-align: center">
+    <img src="assets/images/mainPage.png" width="50%">
+</div>
 
 <h3>Technologies used</h3>
 
@@ -16,3 +16,6 @@
 
 <ul>
     <li><strong>https://alrod909.github.io/Basic-Portfolio/</strong></li>
+    
+</ul>
+
